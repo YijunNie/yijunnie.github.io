@@ -1,0 +1,26 @@
+{
+  "index.qmd": {
+    "index.html": "d957ae24"
+  },
+  "seminar/index.qmd": {
+    "index.html": "a96ca836"
+  },
+  "seminar/lesson01.qmd": {
+    "lesson01.html": "a2e3816a"
+  },
+  "seminar/lesson02.qmd": {
+    "lesson02.html": "845ba9eb"
+  },
+  "theory/index.qmd": {
+    "index.html": "20a7efac"
+  },
+  "theory/lesson01.qmd": {
+    "lesson01.html": "f4530515"
+  },
+  "theory/lesson02.qmd": {
+    "lesson02.html": "c7fcce45"
+  },
+  "about.qmd": {
+    "about.html": "ffcf0638"
+  }
+}

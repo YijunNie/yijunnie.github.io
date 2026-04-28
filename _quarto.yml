@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "松山福祉専門学校 授業資料"
+  site-url: ""
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - text: 福祉研究科
+        menu:
+          - href: seminar/index.qmd
+            text: 福祉総合演習Ⅰ
+          - href: seminar/lesson01.qmd
+            text: 第1回 オリエンテーション
+          - href: seminar/lesson02.qmd
+            text: 第2回 身近な生活と福祉
+      - text: 福祉経営科
+        menu:
+          - href: theory/index.qmd
+            text: 社会福祉概論
+          - href: theory/lesson01.qmd
+            text: 第1回 オリエンテーション
+          - href: theory/lesson02.qmd
+            text: 第2回 人口の変化
+  sidebar:
+    - title: "福祉総合演習Ⅰ"
+      contents:
+        - seminar/index.qmd
+        - seminar/lesson01.qmd
+        - seminar/lesson02.qmd
+    - title: "社会福祉概論"
+      contents:
+        - theory/index.qmd
+        - theory/lesson01.qmd
+        - theory/lesson02.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    smooth-scroll: true
+    link-external-newwindow: true
