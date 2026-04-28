@@ -1,0 +1,85 @@
+/* Main */
+body {
+  line-height: 1.75;
+}
+
+.hero {
+  background: linear-gradient(135deg, #fff7f7, #f5fbff);
+  border: 1px solid #eee;
+  border-radius: 18px;
+  padding: 28px;
+  margin: 16px 0 28px 0;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+  margin: 24px 0;
+}
+
+.course-card {
+  border: 1px solid #e6e6e6;
+  border-radius: 18px;
+  padding: 22px;
+  background: #fff;
+  box-shadow: 0 4px 14px rgba(0,0,0,.05);
+}
+
+.course-card h2, .course-card h3 {
+  margin-top: 0;
+}
+
+.lesson-card {
+  border-left: 6px solid #d85c74;
+  background: #fffafa;
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin: 14px 0;
+}
+
+.pdf-box {
+  border: 1px solid #f0d6d6;
+  background: #fff7f7;
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin: 18px 0 26px 0;
+}
+
+.goal-box {
+  border: 1px solid #d7e8df;
+  background: #f6fffa;
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin: 18px 0;
+}
+
+.discussion-box {
+  border: 1px solid #d7e2f1;
+  background: #f6f9ff;
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin: 18px 0;
+}
+
+.note-box {
+  border: 1px solid #eee2c7;
+  background: #fffaf0;
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin: 18px 0;
+}
+
+table {
+  font-size: 0.95rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #d85c74;
+  color: white !important;
+  text-decoration: none;
+  margin: 4px 6px 4px 0;
+}
