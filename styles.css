@@ -83,3 +83,65 @@ table {
   text-decoration: none;
   margin: 4px 6px 4px 0;
 }
+
+.profile-hero {
+  background: linear-gradient(135deg, #fff5f7, #f4f8ff);
+  border: 1px solid #e8e8e8;
+  border-radius: 24px;
+  padding: 34px;
+  margin: 18px 0 34px 0;
+  box-shadow: 0 8px 24px rgba(0,0,0,.05);
+}
+
+.profile-hero h1 {
+  margin-top: 0;
+  font-size: 2.2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 999px;
+  background: #b94b63;
+  color: white !important;
+  text-decoration: none;
+  margin: 6px 6px 6px 0;
+  font-size: 0.95rem;
+}
+
+.btn-outline {
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 999px;
+  border: 1px solid #b94b63;
+  color: #b94b63 !important;
+  text-decoration: none;
+  margin: 6px 6px 6px 0;
+  font-size: 0.95rem;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.course-card {
+  border: 1px solid #e6e6e6;
+  border-radius: 20px;
+  padding: 24px;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,.05);
+}
+
+.course-card h2,
+.course-card h3 {
+  margin-top: 0;
+}
+
+
+
+
+
+
