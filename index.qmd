@@ -1,45 +1,41 @@
 ---
-title: "授業資料 / Course Materials"
+title: "Yijun Nie"
 ---
 
-::: {.hero}
-# 松山福祉専門学校 授業資料
+# 聶 逸君 / Yijun Nie
 
-このサイトでは、授業で使う資料を公開しています。  
-学生はスマートフォンから内容を確認できます。PDF資料もダウンロードできます。
+**Social Welfare / Gender / Family and Work**
 
-- **福祉研究科**：福祉総合演習Ⅰ
-- **福祉経営科**：社会福祉概論
-:::
+立教大学 社会情報教育研究センター 教育研究コーディネーター  
+松山福祉専門学校 非常勤講師
 
-## コースを選んでください
+Email: m2172004yn@gr.jwu.ac.jp  
 
-::: {.course-grid}
+## Research Interests
 
-::: {.course-card}
-## 👥 福祉研究科  
-### 福祉総合演習Ⅰ
+女性の就業、ジェンダー、家計内資源配分、パネルデータ分析
 
-生活の中の困りごとを見つけ、  
-「問題・必要・相談」の3つで考える演習型の授業です。
+## Employment
 
-[授業ページへ](seminar/index.qmd){.btn}
-:::
+- 2026– 立教大学 社会情報教育研究センター 教育研究コーディネーター
+- 2026– 松山福祉専門学校 非常勤講師
 
-::: {.course-card}
-## 📊 福祉経営科  
-### 社会福祉概論
+## Education
 
-社会福祉・社会保障の制度、人口変化、経済変化などを学ぶ授業です。
+- 2026 日本女子大学大学院 人間社会研究科 社会福祉学専攻 博士後期課程 修了
+- 2023 日本女子大学大学院 人間社会研究科 社会福祉学専攻 修士課程 修了
+- 2018 河南大学 国際教育学院 統計学科 卒業
 
-[授業ページへ](theory/index.qmd){.btn}
-:::
+## Publications
 
-:::
+- 聶 逸君（2023）[「人的資本と既婚女性の再就職タイミング」](https://riwac.jp/admin/wp-content/uploads/2023/10/673c01c0a96a41ea0631df6e9aa2d543.pdf)『現代女性とキャリア』15: 77–88.
+- 聶 逸君（2025）[「有配偶女性のキャリアパターンと離職・転職の選択要因に関する実証分析」](https://www.jstage.jst.go.jp/article/spls/17/4/17_117/_article/-char/ja/)『社会政策』.
+- 聶 逸君（2026）[「既婚女性の再就職のタイミングのコーホート比較」](https://jwu.repo.nii.ac.jp/records/2000773)『日本女子大学大学院 人間社会研究科紀要』第32号.
+- 聶 逸君（2026）  
+  [Gender Equality and Global City Competitiveness: The Case of Tokyo](https://moa.seoulwomen.or.kr/items/show/31270#lg=1&slide=0)  
+  In *SEOUL SMART WOMEN REPORT Vol.1: Gender Equality and Global City Competitiveness*.  
+  Seoul Foundation of Women & Family, pp.49–60.
 
-## 使い方
+## Teaching
 
-1. 自分のコースを選びます。
-2. 今日の授業回を開きます。
-3. ページで内容を確認します。
-4. 必要な場合はPDFをダウンロードします。
+- [授業資料 / Course Materials](teaching.qmd)

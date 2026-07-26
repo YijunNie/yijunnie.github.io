@@ -29,6 +29,83 @@ title: "社会福祉概論"
 [PDFを見る](../files/theory/lesson02_population-change.pdf){.btn}
 :::
 
-## 今後追加予定
+::: {.lesson-card}
+### 第3回 労働と社会福祉
 
-第3回以降の資料も、このページに追加していきます。
+労働、雇用、生活保障と社会福祉の関係について学びます。
+
+[ページを見る](lesson03.qmd){.btn}
+[PDFを見る](../files/theory/lesson03_labour.pdf){.btn}
+:::
+
+::: {.lesson-card}
+### 第4回 社会保障制度
+
+社会保障制度の構造と役割について学びます。
+
+[ページを見る](lesson04.qmd){.btn}
+[PDFを見る](../files/theory/lesson04_social-security.pdf){.btn}
+:::
+
+::: {.lesson-card}
+### 第5、6回 社会保障制度の理念と展開
+
+社会保障制度の理念と展開について学びます。
+
+[ページを見る](lesson05.qmd){.btn}
+[PDFを見る](../files/theory/lesson05_ideals.pdf){.btn}
+:::
+
+::: {.lesson-card}
+### 第7回 社会保障の財政
+
+社会保障の財政について学びます。
+
+[ページを見る](lesson07.qmd){.btn}
+[PDFを見る](../files/theory/lesson07_finance.pdf){.btn}
+:::
+
+::: {.lesson-card}
+### 第8回 保険と扶助
+
+保険と扶助の考え方について学びます。
+
+[ページを見る](lesson08.qmd){.btn}
+[PDFを見る](../files/theory/lesson08_insurance.pdf){.btn}
+:::
+
+::: {.lesson-card}
+### 第9回 医療保険制度
+
+医療保険制度について学びます。
+
+[ページを見る](lesson09.qmd){.btn}
+[PDFを見る](../files/theory/lesson09_medical.pdf){.btn}
+:::
+
+::: {.lesson-card}
+### 第10回 医療保険制度
+
+介護保険制度について学びます。
+
+[ページを見る](lesson10.qmd){.btn}
+[PDFを見る](../files/theory/lesson10_caring.pdf){.btn}
+:::
+
+::: {.lesson-card}
+### 第11回 年金制度
+
+年金制度について学びます。
+
+[ページを見る](lesson11.qmd){.btn}
+[PDFを見る](../files/theory/lesson11_pension.pdf){.btn}
+:::
+
+::: {.lesson-card}
+### 第12回 労災保険と雇用保険
+
+労災保険と雇用保険について学びます。
+
+[ページを見る](lesson12.qmd){.btn}
+[PDFを見る](../files/theory/lesson12_employment.pdf){.btn}
+:::

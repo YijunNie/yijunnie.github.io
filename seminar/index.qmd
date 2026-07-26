@@ -28,7 +28,96 @@ title: "福祉総合演習Ⅰ"
 [ページを見る](lesson02.qmd){.btn}
 [PDFを見る](../files/seminar/lesson02_daily-life-welfare.pdf){.btn}
 :::
+::: {.lesson-card}
+### 第3回 高齢者福祉
 
-## 今後追加予定
+高齢者福祉、介護、地域社会との関わりについて考えます。
 
-第3回以降の資料も、このページに追加していきます。
+[ページを見る](lesson03.qmd){.btn}
+[PDFを見る](../files/seminar/lesson03_elder-welfare.pdf){.btn}
+:::
+
+::: {.lesson-card}
+### 第4回 児童福祉
+
+子ども・家庭・地域社会と福祉について学びます。
+
+[ページを見る](lesson04.qmd){.btn}
+[PDFを見る](../files/seminar/lesson04_children-welfare.pdf){.btn}
+:::
+
+::: {.lesson-card}
+### 第5回 障害者福祉
+
+障害者と福祉について学びます。
+
+[ページを見る](lesson05.qmd){.btn}
+[PDFを見る](../files/seminar/lesson05_disability-welfare.pdf){.btn}
+:::
+
+::: {.lesson-card}
+### 第6回 病気・けがと福祉
+
+病気・けがと福祉について学びます。
+
+[ページを見る](lesson06.qmd){.btn}
+[PDFを見る](../files/seminar/lesson06_illness-welfare.pdf){.btn}
+:::
+
+::: {.lesson-card}
+### 第7回 仕事・失業・生活困難
+
+病気・けがと福祉について学びます。
+
+[ページを見る](lesson07.qmd){.btn}
+[PDFを見る](../files/seminar/lesson07_labor-welfare.pdf){.btn}
+:::
+
+::: {.lesson-card}
+### 第8回 外国人と福祉
+
+外国人と福祉について学びます。
+
+[ページを見る](lesson08.qmd){.btn}
+[PDFを見る](../files/seminar/lesson08_newcomers-welfare.pdf){.btn}
+:::
+
+::: {.lesson-card}
+### 第9回 相談支援援助
+
+相談支援援助について学びます。
+
+[ページを見る](lesson09.qmd){.btn}
+[PDFを見る](../files/seminar/lesson09_consulting-welfare.pdf){.btn}
+:::
+
+::: {.lesson-card}
+### 第10回 コミュニケーションの基本
+
+コミュニケーションの基本について学びます。
+
+[ページを見る](lesson10.qmd){.btn}
+[PDFを見る](../files/seminar/lesson10_communication-welfare.pdf){.btn}
+:::
+
+::: {.lesson-card}
+### 第11回 コミュニティ
+
+地域福祉の基本について学びます。
+
+[ページを見る](lesson11.qmd){.btn}
+[PDFを見る](../files/seminar/lesson11_community-welfare.pdf){.btn}
+:::
+
+::: {.lesson-card}
+### 第12回 介護福祉士の仕事と福祉
+
+介護福祉士の仕事と福祉について学びます。
+
+[ページを見る](lesson12.qmd){.btn}
+[PDFを見る](../files/seminar/lesson12_careworker-welfare.pdf){.btn}
+:::
+
+## 試験前復習
+
+[期末試験前の復習資料](exam-review.qmd)

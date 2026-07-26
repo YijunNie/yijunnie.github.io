@@ -22,5 +22,74 @@
   },
   "about.qmd": {
     "about.html": "ffcf0638"
+  },
+  "research.qmd": {
+    "research.html": "abfe3c9e"
+  },
+  "teaching.qmd.md": {
+    "teaching.qmd.html": "a1f304b0"
+  },
+  "teaching.qmd": {
+    "teaching.html": "c84048a3"
+  },
+  "seminar/lesson03.qmd": {
+    "lesson03.html": "c2186eff"
+  },
+  "theory/lesson03.qmd": {
+    "lesson03.html": "7c53009b"
+  },
+  "seminar/lesson04.qmd": {
+    "lesson04.html": "33dfe5e7"
+  },
+  "theory/lesson04.qmd": {
+    "lesson04.html": "97963969"
+  },
+  "seminar/lesson05.qmd": {
+    "lesson05.html": "3b6ce379"
+  },
+  "theory/lesson05.qmd": {
+    "lesson05.html": "1fdcf06e"
+  },
+  "seminar/lesson06.qmd": {
+    "lesson06.html": "c44b753c"
+  },
+  "seminar/lesson07.qmd": {
+    "lesson07.html": "9f5881da"
+  },
+  "theory/lesson07.qmd": {
+    "lesson07.html": "957a8f60"
+  },
+  "seminar/lesson08.qmd": {
+    "lesson08.html": "21b66931"
+  },
+  "theory/lesson08.qmd": {
+    "lesson08.html": "78350455"
+  },
+  "seminar/lesson09.qmd": {
+    "lesson09.html": "7b7b0e84"
+  },
+  "theory/lesson09.qmd": {
+    "lesson09.html": "0c4de277"
+  },
+  "seminar/lesson10.qmd": {
+    "lesson10.html": "cc89e563"
+  },
+  "theory/lesson10.qmd": {
+    "lesson10.html": "8d0ee87e"
+  },
+  "seminar/lesson11.qmd": {
+    "lesson11.html": "4d790cea"
+  },
+  "theory/lesson11.qmd": {
+    "lesson11.html": "c3300afb"
+  },
+  "seminar/lesson12.qmd": {
+    "lesson12.html": "8a6bee93"
+  },
+  "theory/lesson12.qmd": {
+    "lesson12.html": "83ee6b21"
+  },
+  "seminar/exam-review.qmd": {
+    "exam-review.html": "05b22b6c"
   }
 }

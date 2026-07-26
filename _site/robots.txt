@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://YijunNie.github.io/yijunnie.github.io/sitemap.xml

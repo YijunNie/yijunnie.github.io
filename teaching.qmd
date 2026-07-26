@@ -1,0 +1,44 @@
+---
+title: "Teaching"
+---
+
+# Teaching / 授業資料
+
+松山福祉専門学校で担当している授業資料です。  
+各ページから授業内容を確認し、PDF資料をダウンロードできます。
+
+
+## 福祉経営科
+
+### 社会福祉概論
+
+- [授業トップ](theory/index.qmd)
+- [第1回 オリエンテーション](theory/lesson01.qmd)
+- [第2回 人口の変化](theory/lesson02.qmd)
+- [第3回 労働と社会福祉](theory/lesson03.qmd)
+- [第4回 社会保障制度](theory/lesson04.qmd)
+- [第5、6回 社会保障制度の理念と展開](theory/lesson05.qmd)
+- [第7回 社会保障の財政](theory/lesson07.qmd)
+- [第8回 保険と扶助](theory/lesson08.qmd)
+- [第9回 医療保険](theory/lesson09.qmd)
+- [第10回 介護保険](theory/lesson10.qmd)
+- [第11回 年金制度](theory/lesson11.qmd)
+- [第12回 労災保険と雇用保険](theory/lesson12.qmd)
+
+## 福祉研究科
+
+### 福祉総合演習Ⅰ
+
+- [授業トップ](seminar/index.qmd)
+- [第1回 オリエンテーション](seminar/lesson01.qmd)
+- [第2回 身近な生活と福祉](seminar/lesson02.qmd)
+- [第3回 高齢者福祉](seminar/lesson03.qmd)
+- [第4回 児童福祉](seminar/lesson04.qmd)
+- [第5回 障害者福祉](seminar/lesson05.qmd)
+- [第6回 病気・けがと福祉](seminar/lesson06.qmd)
+- [第7回 仕事・失業・生活困難](seminar/lesson07.qmd)
+- [第8回 外国人と福祉](seminar/lesson08.qmd)
+- [第9回 相談支援援助](seminar/lesson09.qmd)
+- [第10回 コミュニケーションの基本](seminar/lesson10.qmd)
+- [第11回 地域福祉と支援のつながり](seminar/lesson11.qmd)
+- [第12回 介護福祉士の仕事と福祉](seminar/lesson12.qmd)
