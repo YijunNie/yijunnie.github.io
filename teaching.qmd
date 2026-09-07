@@ -24,6 +24,7 @@ title: "Teaching"
 - [第10回 介護保険](theory/lesson10.qmd)
 - [第11回 年金制度](theory/lesson11.qmd)
 - [第12回 労災保険と雇用保険](theory/lesson12.qmd)
+- [第13回 試験前復習](theory/exam-review.qmd)
 
 ## 福祉研究科
 
@@ -42,3 +43,4 @@ title: "Teaching"
 - [第10回 コミュニケーションの基本](seminar/lesson10.qmd)
 - [第11回 地域福祉と支援のつながり](seminar/lesson11.qmd)
 - [第12回 介護福祉士の仕事と福祉](seminar/lesson12.qmd)
+- [第13回 試験前復習](seminar/exam-review.qmd)

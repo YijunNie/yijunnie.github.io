@@ -91,5 +91,11 @@
   },
   "seminar/exam-review.qmd": {
     "exam-review.html": "05b22b6c"
+  },
+  "theory/exam-review.qmd.qmd": {
+    "exam-review.qmd.html": "9ef48ecf"
+  },
+  "theory/exam-review.qmd": {
+    "exam-review.html": "17e4c30f"
   }
 }

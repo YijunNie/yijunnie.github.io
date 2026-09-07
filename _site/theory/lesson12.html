@@ -158,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
 <h1>社会福祉概論 第12回</h1>
 <section id="テーマ" class="level2">
 <h2 class="anchored" data-anchor-id="テーマ">テーマ</h2>
-<p>労災保険と雇用保険</p>
+<p>雇用保険</p>
 </section>
 <section id="授業資料" class="level2">
 <h2 class="anchored" data-anchor-id="授業資料">授業資料</h2>
@@ -242,7 +242,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/YijunNie\.github\.io\/yijunnie\.github\.io\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

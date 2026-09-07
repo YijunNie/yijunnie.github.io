@@ -109,3 +109,8 @@ title: "社会福祉概論"
 [ページを見る](lesson12.qmd){.btn}
 [PDFを見る](../files/theory/lesson12_employment.pdf){.btn}
 :::
+
+## 試験前復習
+[期末試験前の復習資料](exam-review.qmd)
+
+
