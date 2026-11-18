@@ -5,15 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="聶逸君（Yijun Nie）のホームページ。女性の就業、社会政策、家族と家計、データ分析に関する研究・教育活動を紹介しています。">
   <title>Yijun Nie | Academic Website</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Background fallback when the external stylesheet is unavailable. */
+    body { background-color: #fff0b5; background-image: radial-gradient(ellipse 8px 7px at 11px 10px, rgba(255,255,255,.9) 0 56%, transparent 86%), radial-gradient(ellipse 9px 8px at 12px 13px, rgba(167,126,43,.31) 0 62%, transparent 95%); background-size: 26px 26px; }
+  </style>
+  <link rel="stylesheet" href="styles.css?v=20261118d">
 </head>
 <body>
   <div class="site-shell">
     <header class="site-header">
-      <p class="eyebrow">✿ Welcome to my little corner of the web ✿</p>
       <h1>Yijun Nie</h1>
       <p class="roman-name">Research &amp; Teaching</p>
-      <div class="updated"><span class="new-label">NEW!</span> 2026.11 更新</div>
+      <div class="updated">最終更新：2026年11月</div>
       <nav class="site-nav" aria-label="メインメニュー">
         <a class="active" href="index.html" aria-current="page">HOME</a>
         <a href="research.html">研究・論文</a>
@@ -23,30 +26,27 @@
     </header>
 
     <main>
-      <div class="intro-grid">
+      <section class="intro-section">
         <div class="intro-text">
-          <h2><span class="heading-number">１．</span>自己紹介 <small>About me</small></h2>
-          <p class="hello">こんにちは、聶 逸君です。<span aria-hidden="true"> ✿</span></p>
-          <p>博士（社会福祉学）。女性の働き方、家族の暮らし、家計のなかのお金のことを、社会調査データから研究しています。</p>
+          <h2><span class="heading-number">１．</span>プロフィール <small>Profile</small></h2>
+          <p class="hello">聶 逸君（Yijun Nie）</p>
+          <p>博士（社会福祉学）。女性の就業とキャリア形成、夫婦の家計管理・家計内資源配分を中心に、社会調査データを用いた実証研究を行っています。</p>
           <ul class="classic-list">
             <li>立教大学 社会情報教育研究センター 教育研究コーディネーター</li>
             <li>松山福祉専門学校 非常勤講師</li>
             <li>関心：女性の就業・社会政策・ジェンダー・家計内資源配分</li>
           </ul>
-          <p class="small-link">もう少し詳しく → <a href="about.html">経歴とプロフィール</a></p>
+          <p class="small-link"><a href="about.html">経歴・学歴・連絡先はこちら</a></p>
         </div>
-        <aside class="postcard" aria-label="装飾的なごあいさつカード">
-          <div class="postcard-top">a little note from me</div>
-          <div class="flower-drawing" aria-hidden="true"><span class="flower-center"></span><span class="petal p1"></span><span class="petal p2"></span><span class="petal p3"></span><span class="petal p4"></span><span class="petal p5"></span><span class="petal p6"></span><span class="stem"></span><span class="leaf"></span></div>
-          <p>研究も、日々の暮らしも、<br>少しずつ、ていねいに。</p>
-          <div class="postcard-bottom">♡ Yijun</div>
-        </aside>
-      </div>
+        <figure class="personal-art">
+          <img src="personal-art.png" width="802" height="568" alt="青緑色の背景に、柔らかな曲線と小さな円が描かれた手描きのイラスト">
+        </figure>
+      </section>
 
       <hr class="dotted-rule">
       <section>
-        <h2><span class="heading-number">２．</span>研究のこと <small>Research</small></h2>
-        <p>現在の主な研究テーマはこちらです。</p>
+        <h2><span class="heading-number">２．</span>研究 <small>Research</small></h2>
+        <p>研究業績と学会発表を掲載しています。</p>
         <ul class="classic-list link-list">
           <li><a href="research.html#publications">論文・刊行物</a> — 女性の再就職、キャリア選択、家計内資源配分</li>
           <li><a href="research.html#presentations">学会発表</a> — 家族、就業、社会政策と高齢期の生活</li>
@@ -56,7 +56,7 @@
 
       <hr class="dotted-rule">
       <section>
-        <h2><span class="heading-number">３．</span>最近のできごと <small>What's new?</small></h2>
+        <h2><span class="heading-number">３．</span>お知らせ <small>News</small></h2>
         <div class="news-box">
           <ul class="news-list">
             <li><time datetime="2026-11">2026.11</time><span>第153回社会政策学会大会で高齢夫婦の家計管理・消費決定について報告予定です。<a href="research.html#presentations">詳しくはこちら</a></span></li>
@@ -67,16 +67,15 @@
       </section>
 
       <hr class="dotted-rule">
-      <section class="favorite-section">
-        <h2><span class="heading-number">４．</span>My Favorite <small>このホームページについて</small></h2>
-        <p>ここには研究ノートのこと、時々近況も書いていきます。</p>
-        <div class="mini-links"><a href="research.html">✎ Research</a><a href="teaching.html">✿ Teaching</a><a href="about.html">✉ Contact</a></div>
+      <section class="links-section">
+        <h2><span class="heading-number">４．</span>関連ページ <small>Links</small></h2>
+        <div class="mini-links"><a href="research.html">研究業績</a><a href="teaching.html">担当授業</a><a href="about.html#contact">連絡先</a></div>
       </section>
     </main>
 
     <footer class="site-footer">
       <a class="home-button" href="index.html">ＨＯＭＥ</a>
-      <p>© 2026 Yijun Nie <span aria-hidden="true">·</span> Made with a little nostalgia ♡</p>
+      <p>© 2026 Yijun Nie</p>
     </footer>
   </div>
 </body>

@@ -1,10 +1,10 @@
-/* A gentle, nostalgic personal homepage. The wallpaper and flower are CSS-only. */
+/* Retro Japanese academic homepage, with embossed circle wallpaper. */
 :root {
   color-scheme: light;
   --ink: #302d25;
   --blue: #143aaf;
-  --cream: #fff3bc;
-  --lemon: #fff0a7;
+  --cream: #fff0b5;
+  --lemon: #fff4c2;
   --sage: #326948;
   --line: #d8c789;
 }
@@ -20,9 +20,9 @@ body {
   line-height: 1.85;
   background-color: var(--cream);
   background-image:
-    radial-gradient(ellipse 8px 6px at 12px 15px, rgba(194, 166, 77, .30), transparent 95%),
-    radial-gradient(ellipse 8px 7px at 11px 10px, rgba(255, 255, 255, .95), transparent 97%);
-  background-size: 24px 24px;
+    radial-gradient(ellipse 8px 7px at 11px 10px, rgba(255,255,255,.9) 0 56%, transparent 86%),
+    radial-gradient(ellipse 9px 8px at 12px 13px, rgba(167,126,43,.31) 0 62%, transparent 95%);
+  background-size: 26px 26px;
 }
 
 a { color: var(--blue); text-decoration: underline; text-underline-offset: 2px; }
@@ -30,15 +30,14 @@ a:visited { color: #6045a6; }
 a:hover, a:focus-visible { color: #bf4f77; text-decoration-thickness: 2px; }
 a:focus-visible { outline: 2px dashed #c65e72; outline-offset: 4px; }
 
-.site-shell { max-width: 1050px; margin: 0 auto; padding: 0 25px; }
-.site-header { position: relative; padding: 17px 0 10px; text-align: center; }
+.site-shell { max-width: 1050px; margin: 0 auto; padding: 0 25px; min-height: 100vh; background: rgba(255,253,241,.88); border-left: 1px solid rgba(174,143,70,.4); border-right: 1px solid rgba(174,143,70,.4); box-shadow: 0 0 15px rgba(117,90,27,.08); }
+.site-header { position: relative; padding: 24px 0 10px; text-align: center; }
 .site-header::after { content: ""; display: block; margin-top: 16px; border-bottom: 2px ridge #e3d5a0; }
-.eyebrow { margin: 0 0 3px; color: #a27864; font-family: Georgia, serif; font-style: italic; font-size: 13px; letter-spacing: .07em; }
 .site-header h1 { font-size: clamp(28px, 4.1vw, 38px); font-weight: 750; letter-spacing: .065em; margin: 2px 0 0; line-height: 1.5; text-shadow: 1px 1px #fffef7; }
-.roman-name { margin: -2px 0 0; color: #83694e; font-family: Georgia, serif; font-style: italic; font-size: 14px; }
-.updated { position: absolute; right: 2px; top: 94px; color: #655b42; font-family: Georgia, serif; font-size: 12px; }
+.roman-name { margin: -2px 0 0; color: #83694e; font-family: Georgia, serif; font-size: 14px; }
+.updated { margin-top: 3px; color: #655b42; font-size: 11px; }
 .new-label { display: inline-block; color: #be4871; font-family: Georgia, serif; font-weight: 700; font-style: italic; font-size: 12px; padding: 0 3px; }
-.site-nav { margin: 19px auto 0; display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; }
+.site-nav { margin: 14px auto 0; display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; }
 .site-nav a { display: inline-block; padding: 5px 18px 4px; border: 1px solid #c9b98d; border-bottom: 3px solid #af9b65; border-radius: 3px; background: #fffbe8; box-shadow: inset 1px 1px #fff, 1px 2px 0 rgba(139,117,57,.13); color: #324f8c; font-size: 13.5px; text-decoration: none; font-weight: 700; }
 .site-nav a:hover, .site-nav a:focus-visible { background: #ffeab4; color: #ad5070; transform: translateY(-1px); }
 .site-nav a.active { background: #e9f0d9; border-color: #94a480; border-bottom-color: #748b65; color: #355b3b; }
@@ -52,25 +51,16 @@ main h2 { font-size: 24px; }
 main h3 { font-size: 22px; }
 h2 small, h3 small { font-size: 12px; color: #8b7c62; font-weight: 400; letter-spacing: .02em; font-family: Georgia, serif; margin-left: 6px; }
 .heading-number { font-family: Georgia, "Yu Mincho", serif; color: #55714c; margin-right: 3px; }
-.intro-grid { display: grid; grid-template-columns: minmax(0,1fr) 265px; align-items: start; gap: 28px; }
+.intro-section { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 360px); align-items: center; gap: 28px; }
 .intro-text { padding: 0 6px; }
 .intro-text .hello { font-weight: 700; font-size: 17px; color: #54432d; }
+.personal-art { margin: 15px 0 0; padding: 0; }
+.personal-art img { display: block; width: 100%; height: auto; border: 1px solid rgba(74, 112, 108, .24); box-shadow: 2px 3px 8px rgba(50, 77, 69, .13); }
 .classic-list { padding-left: 1.9em; margin: 10px 0 15px; }
 .classic-list li { margin: 5px 0; padding-left: .1em; }
 .classic-list li::marker { color: #897a4b; }
 .small-link { margin-top: 8px; font-size: 14px; }
 
-.postcard { position: relative; width: 100%; margin: 20px 2px 0 0; padding: 13px 13px 15px; background: #fffdf2; border: 1px solid #e3d8b7; box-shadow: 2px 4px 0 rgba(146, 121, 56, .19), 0 0 0 5px rgba(255,255,255,.22); text-align: center; transform: rotate(2deg); }
-.postcard::before { content: ""; position: absolute; top: -11px; right: 31px; width: 71px; height: 22px; background: rgba(213,169,117,.45); transform: rotate(-5deg); }
-.postcard-top { font: italic 13px Georgia, serif; color: #ad7f71; border-bottom: 1px dotted #dfc5bc; padding-bottom: 8px; }
-.postcard p { font-family: "Yu Mincho", "Hiragino Mincho ProN", serif; font-size: 13px; line-height: 1.8; color: #6b5c46; margin: 4px 0 10px; }
-.postcard-bottom { text-align: right; color: #ad7f71; font: italic 14px Georgia, serif; }
-.flower-drawing { position: relative; width: 130px; height: 125px; margin: 10px auto 0; }
-.petal { position: absolute; width: 32px; height: 39px; border-radius: 50%; background: #f2a8ac; border: 2px solid #de9395; left: 49px; top: 19px; transform-origin: 16px 42px; }
-.p1 { transform: rotate(0deg); }.p2 { transform: rotate(60deg); }.p3 { transform: rotate(120deg); }.p4 { transform: rotate(180deg); }.p5 { transform: rotate(240deg); }.p6 { transform: rotate(300deg); }
-.flower-center { position: absolute; z-index: 2; left: 52px; top: 54px; width: 26px; height: 26px; background: #f2c75d; border: 2px solid #c9a449; border-radius: 50%; }
-.stem { position: absolute; left: 63px; top: 77px; width: 5px; height: 45px; border-radius: 8px; background: #86a47a; }
-.leaf { position: absolute; top: 96px; left: 65px; width: 29px; height: 16px; border-radius: 0 95% 0 95%; background: #9db78a; transform: rotate(-17deg); }
 
 .dotted-rule { border: 0; border-top: 2px dotted #c9ba81; margin: 21px 0; }
 .link-list li { margin-bottom: 9px; }
@@ -79,7 +69,7 @@ h2 small, h3 small { font-size: 12px; color: #8b7c62; font-weight: 400; letter-s
 .news-list li { display: grid; grid-template-columns: 85px 1fr; gap: 12px; padding: 9px 0; border-bottom: 1px dotted #d9cfa3; }
 .news-list li:last-child { border-bottom: 0; }
 .news-list time { font-family: Georgia, serif; font-size: 13px; font-weight: bold; color: #8e6c59; white-space: nowrap; }
-.favorite-section { padding-bottom: 12px; }
+.links-section { padding-bottom: 12px; }
 .mini-links { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 15px; }
 .mini-links a { display: inline-block; font-family: Georgia, serif; font-size: 13px; padding: 3px 9px; background: rgba(255,255,255,.55); border: 1px solid #e1d8a9; border-radius: 2px; }
 .site-footer { border-top: 2px ridge #e4d6a2; text-align: center; padding: 17px 0 24px; margin-top: 21px; }
@@ -103,16 +93,15 @@ h2 small, h3 small { font-size: 12px; color: #8b7c62; font-weight: 400; letter-s
   .site-shell { padding: 0 17px; }
   .site-header { padding-top: 20px; }
   .site-header h1 { font-size: 29px; letter-spacing: .03em; }
-  .updated { position: static; text-align: right; margin: 8px 0 -3px; }
+  .updated { text-align: center; margin-top: 4px; }
   .site-nav { gap: 6px; margin-top: 15px; }
   .site-nav a { font-size: 12px; padding: 5px 11px; }
-  .intro-grid { grid-template-columns: 1fr; gap: 7px; }
-  .postcard { width: min(270px, calc(100% - 20px)); margin: 12px auto 6px; }
+  .intro-section { grid-template-columns: 1fr; gap: 9px; }
+  .personal-art { width: min(420px, 100%); margin: 7px auto 13px; }
   main h2 { font-size: 22px; }
   main h3 { font-size: 21px; }
   .page-heading h2 { font-size: 25px; }
   .news-list li { grid-template-columns: 74px 1fr; gap: 8px; }
-  .eyebrow { font-size: 11px; }
 }
 @media (max-width: 400px) {
   .site-shell { padding: 0 12px; }
