@@ -3,8 +3,8 @@
   color-scheme: light;
   --ink: #302d25;
   --blue: #143aaf;
-  --cream: #fff0b5;
-  --lemon: #fff4c2;
+  --cream: #fff3bc;
+  --lemon: #fff0a7;
   --sage: #326948;
   --line: #d8c789;
 }
@@ -20,9 +20,9 @@ body {
   line-height: 1.85;
   background-color: var(--cream);
   background-image:
-    radial-gradient(ellipse 8px 7px at 11px 10px, rgba(255,255,255,.9) 0 56%, transparent 86%),
-    radial-gradient(ellipse 9px 8px at 12px 13px, rgba(167,126,43,.31) 0 62%, transparent 95%);
-  background-size: 26px 26px;
+    radial-gradient(ellipse 8px 6px at 12px 15px, rgba(194, 166, 77, .30), transparent 95%),
+    radial-gradient(ellipse 8px 7px at 11px 10px, rgba(255, 255, 255, .95), transparent 97%);
+  background-size: 24px 24px;
 }
 
 a { color: var(--blue); text-decoration: underline; text-underline-offset: 2px; }
@@ -30,7 +30,7 @@ a:visited { color: #6045a6; }
 a:hover, a:focus-visible { color: #bf4f77; text-decoration-thickness: 2px; }
 a:focus-visible { outline: 2px dashed #c65e72; outline-offset: 4px; }
 
-.site-shell { max-width: 1050px; margin: 0 auto; padding: 0 25px; min-height: 100vh; background: rgba(255,253,241,.88); border-left: 1px solid rgba(174,143,70,.4); border-right: 1px solid rgba(174,143,70,.4); box-shadow: 0 0 15px rgba(117,90,27,.08); }
+.site-shell { max-width: 1050px; margin: 0 auto; padding: 0 25px; }
 .site-header { position: relative; padding: 24px 0 10px; text-align: center; }
 .site-header::after { content: ""; display: block; margin-top: 16px; border-bottom: 2px ridge #e3d5a0; }
 .site-header h1 { font-size: clamp(28px, 4.1vw, 38px); font-weight: 750; letter-spacing: .065em; margin: 2px 0 0; line-height: 1.5; text-shadow: 1px 1px #fffef7; }
@@ -51,11 +51,11 @@ main h2 { font-size: 24px; }
 main h3 { font-size: 22px; }
 h2 small, h3 small { font-size: 12px; color: #8b7c62; font-weight: 400; letter-spacing: .02em; font-family: Georgia, serif; margin-left: 6px; }
 .heading-number { font-family: Georgia, "Yu Mincho", serif; color: #55714c; margin-right: 3px; }
-.intro-section { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 360px); align-items: center; gap: 28px; }
+.intro-section { display: grid; grid-template-columns: minmax(0, 1fr) 265px; align-items: start; gap: 28px; padding: 0; }
 .intro-text { padding: 0 6px; }
 .intro-text .hello { font-weight: 700; font-size: 17px; color: #54432d; }
-.personal-art { margin: 15px 0 0; padding: 0; }
-.personal-art img { display: block; width: 100%; height: auto; border: 1px solid rgba(74, 112, 108, .24); box-shadow: 2px 3px 8px rgba(50, 77, 69, .13); }
+.personal-art { width: 100%; margin: 20px 0 0; padding: 0; }
+.personal-art img { display: block; width: 100%; height: auto; }
 .classic-list { padding-left: 1.9em; margin: 10px 0 15px; }
 .classic-list li { margin: 5px 0; padding-left: .1em; }
 .classic-list li::marker { color: #897a4b; }
@@ -97,7 +97,7 @@ h2 small, h3 small { font-size: 12px; color: #8b7c62; font-weight: 400; letter-s
   .site-nav { gap: 6px; margin-top: 15px; }
   .site-nav a { font-size: 12px; padding: 5px 11px; }
   .intro-section { grid-template-columns: 1fr; gap: 9px; }
-  .personal-art { width: min(420px, 100%); margin: 7px auto 13px; }
+  .personal-art { width: min(270px, calc(100% - 20px)); margin: 12px auto 6px; }
   main h2 { font-size: 22px; }
   main h3 { font-size: 21px; }
   .page-heading h2 { font-size: 25px; }
